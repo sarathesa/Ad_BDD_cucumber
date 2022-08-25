@@ -1,0 +1,423 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-06T05:57:35.954Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinition.HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Entering all Feilds to Book",
+        "description": "",
+        "id": "automation-of-adactinhotel;entering-all-feilds-to-book;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinition.HooksClass.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Should Verify login msg \"Hello sarathkumare!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello sarathkumare!\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.stepdefinition.BookingHoteStep.userShouldVerifyLoginMsg(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should Search Hotel with selecting \"Los Angeles\",\"Hotel Creek\",\"Standard\",\"3 - Three\",\"26/05/2022\",\"27/05/2022\",\"1 - One\"and\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Los Angeles\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"26/05/2022\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"27/05/2022\"",
+                  "offset": 104
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 117
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 129
+                }
+              ],
+              "location": "com.stepdefinition.BookingHoteStep.userShouldSearchHotelWithSelectingAnd(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Should Verify select hotel \"Select Hotel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Select Hotel\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.stepdefinition.BookingHoteStep.userShouldVerifySelectHotel(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should select Hotel",
+            "match": {
+              "location": "com.stepdefinition.BookingHoteStep.userShouldSelectHotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Should Verify msg \"Book A Hotel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Book A Hotel\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.stepdefinition.BookingHoteStep.userShouldVerifyMsg(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should book hotel with giving details\"balaji\",\"k\",\"Mumbai\" and payment",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"balaji\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"k\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"Mumbai\"",
+                  "offset": 55
+                }
+              ],
+              "location": "com.stepdefinition.BookingHoteStep.userShouldBookHotelWithGivingDetailsAndPayment(java.lang.String,java.lang.String,java.lang.String,io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "cardType",
+                  "cardNo",
+                  "select month",
+                  "select value",
+                  "cvv"
+                ]
+              },
+              {
+                "cells": [
+                  "American Express",
+                  "9084567890123456",
+                  "January",
+                  "2022",
+                  "1234"
+                ]
+              },
+              {
+                "cells": [
+                  "VISA",
+                  "9084567890124532",
+                  "April",
+                  "2022",
+                  "4321"
+                ]
+              },
+              {
+                "cells": [
+                  "American Express",
+                  "9084654387123456",
+                  "May",
+                  "2022",
+                  "8765"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Should Verify \"Booking Confirmation\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Booking Confirmation\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.stepdefinition.BookingHoteStep.userShouldVerify(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-06T05:57:36.066Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinition.HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Without Entering book hotel Field ,click book",
+        "description": "",
+        "id": "automation-of-adactinhotel;without-entering-book-hotel-field--click-book;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinition.HooksClass.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User Should Verify login msg \"Hello sarathkumare!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello sarathkumare!\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.stepdefinition.BookingHoteStep.userShouldVerifyLoginMsg(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User should Search Hotel with selecting \"Los Angeles\",\"Hotel Creek\",\"Standard\",\"3 - Three\",\"26/05/2022\",\"27/05/2022\",\"1 - One\"and\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Los Angeles\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"26/05/2022\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"27/05/2022\"",
+                  "offset": 104
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 117
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 129
+                }
+              ],
+              "location": "com.stepdefinition.BookingHoteStep.userShouldSearchHotelWithSelectingAnd(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Should Verify select hotel \"Select Hotel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Select Hotel\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.stepdefinition.BookingHoteStep.userShouldVerifySelectHotel(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should select Hotel",
+            "match": {
+              "location": "com.stepdefinition.BookingHoteStep.userShouldSelectHotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User Should Verify msg \"Book A Hotel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Book A Hotel\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.stepdefinition.BookingHoteStep.userShouldVerifyMsg(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User Should click book button",
+            "match": {
+              "location": "com.stepdefinition.BookingHoteStep.userShouldClickBookButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User Should verify msg \"Please Enter your First Name\",\"Please Enter you Last Name\",\"Please Enter your Address\",\"Please Enter your 16 Digit Credit Card Number\",\"Please Select your Credit Card Type\",\"Please Select your Credit Card Expiry Month\",\"Please Enter your Credit Card CVV Number\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please Enter your First Name\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Please Enter you Last Name\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"Please Enter your Address\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"Please Enter your 16 Digit Credit Card Number\"",
+                  "offset": 111
+                },
+                {
+                  "val": "\"Please Select your Credit Card Type\"",
+                  "offset": 159
+                },
+                {
+                  "val": "\"Please Select your Credit Card Expiry Month\"",
+                  "offset": 197
+                },
+                {
+                  "val": "\"Please Enter your Credit Card CVV Number\"",
+                  "offset": 243
+                }
+              ],
+              "location": "com.stepdefinition.BookingHoteStep.userShouldVerifyMsg(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Automation of AdactinHotel",
+    "description": "",
+    "id": "automation-of-adactinhotel",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/BookingHotel.feature",
+    "tags": []
+  }
+]
